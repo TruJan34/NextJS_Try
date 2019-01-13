@@ -1,0 +1,16 @@
+
+in package.json
+"scripts": {
+    "dev": "next"
+}
+
+yarn run dev
+
+add .next/ to gitignore
+
+Hot module reloading
+
+yarn add @zeit/next-sass node-sass
+
+_document.js  add =>   <link rel="stylesheet" href="/_next/static/style.css" />
+

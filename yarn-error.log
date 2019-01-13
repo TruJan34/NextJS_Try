@@ -1,8 +1,8 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add react react-dom next
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add @zeit/next-sass
 
 PATH: 
-  C:\Users\Tru\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Tru\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files\Dell\DW WLAN Card;C:\Program Files\WIDCOMM\Bluetooth Software;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files\MongoDB\Server\3.4\bin;C:\Python27\Scripts;C:\Python27;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files (x86)\Yarn\bin;C:\Users\Tru\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\nodejs;C:\Program Files\dotnet;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Users\Tru\AppData\Local\Programs\Python\Python37\Scripts;C:\Users\Tru\AppData\Local\Programs\Python\Python37;C:\Users\Tru\AppData\Local\Yarn\bin;C:\Users\Tru\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\Tru\AppData\Roaming\npm;C:\Users\Tru\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Docker Toolbox;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Dell\DW WLAN Card;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\MongoDB\Server\3.4\bin;C:\Python27\Scripts;C:\Python27;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files (x86)\Yarn\bin\;C:\Users\Tru\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Users\Tru\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\Tru\AppData\Local\Programs\Python\Python37\;C:\Users\Tru\AppData\Local\Yarn\bin;C:\Users\Tru\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\Tru\AppData\Roaming\npm;C:\Users\Tru\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Docker Toolbox
 
 Yarn version: 
   1.5.1
@@ -20,6 +20,7 @@ npm manifest:
     "main": "index.js",
     "license": "MIT",
     "scripts": {
+      "dev": "next",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [],
@@ -4129,7 +4130,6 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/yallist/-/yallist-3.0.3.tgz#b4b049e314be545e3ce802236d6cd22cd91c3de9"
 
 Trace: 
-  Error: connect ETIMEDOUT 104.16.20.35:443
-      at Object._errnoException (util.js:992:11)
-      at _exceptionWithHostPort (util.js:1014:20)
-      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1186:14)
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com registry.yarnpkg.com:443
+      at errnoException (dns.js:50:10)
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:92:26)
